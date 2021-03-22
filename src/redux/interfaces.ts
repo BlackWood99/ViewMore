@@ -25,7 +25,7 @@ interface ISerialCurrentGetAction {
 
 interface ISerialPutRaitingAction {
     type: typeof PUT_CHANGE_RAITING,
-    payload: INewSerialType
+    payload: IUser
 }
 
 interface ISerialUsersGetAction {

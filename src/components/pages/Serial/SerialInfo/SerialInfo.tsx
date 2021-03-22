@@ -3,7 +3,10 @@ import { StarRaiting } from "../../../utils/StarRaiting/StarRaiting"
 import styles from "../Serial.module.css"
 
 const SerialInfo = (props: any) => {
-    console.log(props)
+    
+    const changeStarHandler = (serial: any) => {
+		props.onChangeRaiting(serial)
+    }
 
     return (
         <div className={styles.serialInfo_wrapper}>
@@ -54,10 +57,11 @@ const SerialInfo = (props: any) => {
                         </div>
                     </div>
 				</div>
-                <div className={styles.myAppraisalBlock}>
+                {props.foundSer ? <div className={styles.myAppraisalBlock}>
                     <h3>Моя оценка</h3>
-                    <StarRaiting serial={props.currSer} onChangeRaiting={props.onChangeRaiting} />
-                </div>
+                    <StarRaiting serial={props.foundSer} onChangeRaiting={changeStarHandler} />
+                </div> : <span></span>}
+                
                 
                 <div className={styles.serial_descriptionBlock}>
                     <h3>Описание</h3>

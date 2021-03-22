@@ -13,6 +13,7 @@ const SerialContainer = (props: any) => {
 
     if (!props.currentSerial || !props.user) return <h1>Loading...</h1>
 
+    // Поиск сериала у юзера
     function search(nameKey: any, myArray: any){
         for (var i=0; i < myArray.length; i++) {
             if (myArray[i].serialId == nameKey) {
@@ -24,8 +25,18 @@ const SerialContainer = (props: any) => {
     const foundSer:any = search(id, props.user.mySerials)
     
 
-    const onChangeRaiting = (serial: any, value:number) => {
-		props.changeSerialRaiting(serial, value)
+    const onChangeRaiting = (serial: any) => {
+        let user = {
+            ...props.user,
+            mySerials: props.user.mySerials.map((ser: any) => {
+                if (ser.serialId == serial.serialId) {
+                    return serial
+                } else return ser
+
+            })
+        }
+
+		props.changeSerialRaiting(user)
 	}
 
 	return (

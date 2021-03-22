@@ -3,9 +3,13 @@ import React from "react"
 export const Star = (props: any) => {
 
 	let checked = false
-	if (props.serial.raiting === props.value) {
+	if (props.serial.myRaiting === props.value) {
+		checked = true
+	} else if (props.serial.raiting === props.value) {
 		checked = true
 	}
+
+	console.log(props.serial)
 
     const id = 'star-rating-' + Date.now() + Math.random()
 

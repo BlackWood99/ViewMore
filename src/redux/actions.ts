@@ -8,7 +8,6 @@ export const addNewSerial = (payload: INewSerialForPostType) => {
 	return (dispatch: Dispatch<SerialActionType>) => {
 		axios.post('http://localhost:3004/serials', payload)
 			.then(response => {
-				console.log(response)
 				dispatch({
 					type: ADD_NEW_SERIAL, 
 					payload: response.data,
@@ -39,18 +38,15 @@ export const getCurrentSerial = (id: number) => {
 	}
 }
 
-export const changeSerialRaiting = (serial: any, value:any) => {
+export const changeSerialRaiting = (user: any) => {
 	return (dispatch: Dispatch<SerialActionType>) => {
-		axios.put(`http://localhost:3004/serials/${serial.id}`, {
-			...serial,
-			raiting: value
-		}).then(response => {
-			console.log(response)
-			dispatch({
-				type: PUT_CHANGE_RAITING,
-				payload: response.data
+		axios.put(`http://localhost:3004/users/123`, user)
+			.then(response => {
+				dispatch({
+					type: PUT_CHANGE_RAITING,
+					payload: response.data
+				})
 			})
-		})
 	}
 }
 
@@ -69,9 +65,7 @@ export const getUser = () => {
 }
 
 
-
-
-// APP
+// --------APP-------- //
 
 export const initializing = () => {
 	return {

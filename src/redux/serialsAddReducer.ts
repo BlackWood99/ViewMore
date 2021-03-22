@@ -22,12 +22,7 @@ export const serialsAddReducer = (
 			return { ...state, currentSerial: action.payload }
 		}
 		case PUT_CHANGE_RAITING: {
-			return { ...state, serials: state.serials.map(ser => {
-				if (ser.id === action.payload.id) {
-					return {...ser, raiting: action.payload.raiting}
-				}
-				return ser
-			}) } 
+			return { ...state, user: action.payload } 
 		}
 		case GET_USERS_SERIALS: {
 			return { ...state, user: action.payload }

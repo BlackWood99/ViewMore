@@ -3,7 +3,14 @@ import { Star } from "./Star"
 export const StarRaiting = (props: any) => {
 	
     const changeStarHandler = (value: any) => {
-        props.onChangeRaiting(props.serial, value)
+		const newSerial = {
+			...props.serial,
+			myRaiting: value
+		}
+
+		if (props.onChangeRaiting) {
+			props.onChangeRaiting(newSerial)
+		} else console.log('click click')
     }
 
 	const stars = []

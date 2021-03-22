@@ -23,10 +23,6 @@ const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
 		setThisSerials(props.serials)
 	}, [props.serials])
 
-	const onChangeRaiting = (serial: INewSerialType, value:number) => {
-		props.changeSerialRaiting(serial, value)
-	}
-	
 	const submitHandler = (serial: INewSerialForPostType) => {
 		
 		let newSerial: INewSerialForPostType = {
@@ -195,7 +191,7 @@ const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
 										</NavLink>
 									</div>
 
-									<span> <StarRaiting serial={serial} onChangeRaiting={onChangeRaiting}/></span>
+									<span> <StarRaiting serial={serial} /></span>
 
 									<span>{serial.viewers}</span>
 									<span>{serial.audience}%</span>
