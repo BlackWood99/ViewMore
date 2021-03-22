@@ -1,0 +1,32 @@
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 0.7rem 0;
+    border-bottom: 3px solid rgb(212, 13, 13)
+}
+
+.header__logo h3 {
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav_link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1.3rem;
+}
+
+.header__search-block {
+    display: flex;
+    align-items: center;
+}
+
+.header__login {
+    text-align: right;
+}
+

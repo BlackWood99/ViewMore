@@ -1,0 +1,20 @@
+.infoBlock {
+    margin-bottom: 30px;
+}
+
+.infoBlock h3 {
+    font-size: 24px;
+    margin-bottom: 1.3rem;
+}
+
+.infoBlock__item {
+    width: 100%;
+    max-width: 12rem;
+    height: 12rem;
+    padding: 20px 10px;
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

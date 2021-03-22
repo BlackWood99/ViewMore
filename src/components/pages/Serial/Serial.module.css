@@ -1,0 +1,183 @@
+.btn {
+    padding: 0.7rem 0.6rem;
+    font-size: 1.2rem;
+    color: rgb(110, 110, 110);
+    background-color: rgba(169, 172, 175, 0.376);
+    border: none;
+}
+
+.serialInfo_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.5fr 0.1fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "serial_heading"
+      "serialBlock"
+      "myAppraisalBlock"
+      "serial_descriptionBlock";
+  }
+  
+  .serial_heading { grid-area: serial_heading; }
+  
+  .serialBlock {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "preview info"
+      "preview info";
+    grid-area: serialBlock;
+  }
+  
+  .preview { grid-area: preview; }
+  
+  .info { grid-area: info; }
+  
+  .myAppraisalBlock { grid-area: myAppraisalBlock; }
+  
+  .serial_descriptionBlock { grid-area: serial_descriptionBlock; }
+  
+
+.serial_heading {
+    margin-bottom: 1rem;
+}
+
+.serial_heading h2{
+    font-size: 1.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.serialBlock {
+    margin-bottom: 1rem;
+}
+
+.preview {
+    margin-right: 2rem;
+}
+
+.preview_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_serialStatus {
+    /* width: 24.8%; */
+    width: 100%;
+    margin-right: 0.1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_item {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.info_item > div {
+    display: inline;
+}
+
+.info_heading {
+    margin-right: 0.4rem;
+    color: rgb(131, 130, 130)
+}
+
+.myAppraisalBlock {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.myAppraisalBlock h3 {
+    font-size: 1.6rem;
+    margin-right: 1.5rem;
+}
+
+.serial_descriptionBlock {
+    margin-bottom: 2rem;
+}
+
+.serial_descriptionBlock h3{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.serial_descriptionBlock p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+
+.btn_markAll {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.btn_saveChange {
+    background-color: red;
+    color: #fff;
+}
+
+.serialsSeasons_heading {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.serialSeasons_block {
+
+}
+
+.serialSeasons_item {
+    display: flex;
+    padding: 2.3rem 0;
+    border-bottom: 1px solid rgba(173, 167, 167, 0.342)
+}
+
+.season {
+    width: 12rem;
+    padding: 0.2rem 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.season h4 {
+    font-size: 1.4rem;
+    color: rgb(47, 47, 221);
+    text-align: center;
+}
+
+.episodesBlock {
+    width: 100%;
+}
+
+.episodesBlock_item {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 1rem;
+}
+
+.episodesBlock_item:nth-child(even) {
+    background-color: rgba(200, 200, 200, 0.157);
+}
+
+.epMark {
+    margin-right: 0.7rem;
+}
+
+.epDate {
+    margin-right: 1.5rem;
+    letter-spacing: -0.03rem;
+}
+
+.epNumb {
+    margin-right: 2rem;
+}
+
+.epName {
+    color: rgb(47, 47, 221);
+}

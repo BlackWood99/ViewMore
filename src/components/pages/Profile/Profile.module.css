@@ -1,0 +1,20 @@
+.profileBlock {
+    background-color: #fff;
+    display: grid;
+	grid-template-columns: 1.7fr 0.3fr;
+	grid-template-rows: 1fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  "profileBlock__content profileBlock__rightAside";
+}
+
+/* CONTENT OF PROFILE */
+.profileBlock__content {
+    grid-area: profileBlock__content;
+    padding-right: 30px;
+}
+
+/* RIGHT SIDE OF PROFILE */
+.profileBlock__rightAside {
+    grid-area: profileBlock__rightAside;
+}

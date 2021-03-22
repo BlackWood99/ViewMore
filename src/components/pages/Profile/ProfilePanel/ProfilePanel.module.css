@@ -1,0 +1,26 @@
+.profileBlock__profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileBlock__profile h3 {
+    font-size: 24px;
+    margin-bottom: 1.3rem;
+}
+
+.profile__buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.profile__buttons a {
+    color: rgb(47, 93, 218);
+    font-size: 0.95rem;
+    margin-bottom: 0.2rem;
+}
+
+.profileImg {
+    width: 100%;
+    max-width: 9.4rem;
+}

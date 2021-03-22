@@ -1,0 +1,13 @@
+/* .serialsBlock__buttons {
+
+} */
+
+.serialsBlock__info {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serialsBlock__serialListWrap {
+    width: 100%;
+}

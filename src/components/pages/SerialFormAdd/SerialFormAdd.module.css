@@ -1,0 +1,73 @@
+.addSerials {
+    background-color: #fff;
+}
+
+.addSerials h2 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.addSerials__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.addSerials__form_label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+}
+
+.addSerials__form_label label {
+    width: 13rem;    
+}
+.addSerials__form_label input {
+    width: 100%;    
+}
+.addSerials__form_label span {
+    color: red;
+    margin-left: 1rem;   
+}
+
+.add_button {
+    background-color: rgb(243, 34, 34);
+    color: #fff;
+    text-transform: uppercase;
+    
+    padding: 0.8rem 0;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.serialsList__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 3px solid rgb(243, 34, 34);
+}
+
+.serialsList__heading span, 
+.serialsList__item span {
+    text-align: center;
+    width: 9rem;
+}
+
+.serialsList__heading span:first-child,
+.serialsList__item div {
+    width: 13rem;
+    text-align: left;
+}
+
+.serialsList__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(149, 146, 146, 0.353);
+}
+
+.serialsList__item .link:hover {
+    color: blue
+}

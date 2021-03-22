@@ -1,0 +1,28 @@
+.serialsBlock__serialList_item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(149, 146, 146, 0.353);
+}
+
+
+.name {
+	width: 15rem;
+}
+
+.raiting {
+	width: 7rem;
+}
+
+.countEp {
+	width: 20rem;
+}
+
+.progress {
+	height: 20px;
+	width: 100%;
+}
