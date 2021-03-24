@@ -11,3 +11,18 @@
 .serialsBlock__serialListWrap {
     width: 100%;
 }
+
+.serialsBlock_btn {
+    cursor: pointer;
+    margin-right: 0.1rem;
+    padding: 0.7rem 0.6rem;
+    font-size: 1.2rem;
+    color: rgb(110, 110, 110);
+    background-color: rgba(169, 172, 175, 0.376);
+    border: none;
+}
+
+.serialsBlock_btn:disabled {
+    background-color: red;
+    color: #fff;
+}

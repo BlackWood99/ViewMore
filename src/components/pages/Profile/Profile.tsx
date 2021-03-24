@@ -19,11 +19,9 @@ interface IProfileStateProps {
 }
 
 const Profile: any = (props: IProfileStateProps) => {
-	console.log('profile render')
-
 	if (!props.user) return <h1>Loading</h1>
 
-	const filterUserSerials = props.user.mySerials.map((serial) => {
+	/* const filterUserSerials = props.user.mySerials.map((serial) => {
 		return serial.serialId
 	})
 
@@ -33,7 +31,9 @@ const Profile: any = (props: IProfileStateProps) => {
 				return serial
 			}
 		})
-		.filter((serial) => serial !== undefined)
+		.filter((serial) => serial !== undefined) */
+
+	const mySerials = props.user.mySerials
 
 	const onChangeRaiting = (serial: any) => {
 		let user = {
@@ -56,7 +56,7 @@ const Profile: any = (props: IProfileStateProps) => {
 				<ProfileInfo />
 
 				<SerialsBlock
-					serials={mySerials}
+					mySerials={mySerials}
 					onChangeRaiting={onChangeRaiting}
 					user={props.user}
 				/>

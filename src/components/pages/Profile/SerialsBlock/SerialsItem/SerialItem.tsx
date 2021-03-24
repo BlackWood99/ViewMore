@@ -4,20 +4,20 @@ import styles from "./SerialItem.module.css"
 
 
 export const SerialItem = (props: any) => {
-
-    const foundSer = props.user.mySerials.find((ser: any) => ser.serialId == props.serial.id)
+    //console.log(props)
+    //const foundSer = props.user.mySerials.find((ser: any) => ser.serialId == props.serial.id)
 
     return (
         <div className={styles.serialsBlock__serialList_item}>
             <div className={styles.name}>
-                <NavLink to={`/Serial/${props.serial.id}`}>
-                    <h4>{props.serial.name}</h4>
+                <NavLink to={`/Serial/${props.serial.serialId}`}>
+                    <h4>{props.serial.serialName}</h4>
                 </NavLink>
             </div>
 
             <div className={styles.raiting}>
 
-                <StarRaiting serial={foundSer} onChangeRaiting={props.onChangeRaiting}/>
+                <StarRaiting serial={props.serial} onChangeRaiting={props.onChangeRaiting}/>
 
             </div>
 

@@ -28,6 +28,7 @@ const SerialContainer = (props: any) => {
 
     let foundSer:any = search(id, props.user.mySerials)
 
+    // Че-нибудь придумать вместо этого
     if (!foundSer) {
         foundSer = {
             status: 4
@@ -37,11 +38,10 @@ const SerialContainer = (props: any) => {
 
     const onChangeStatus = (serial: any, status: number) => {
         let isFoundSer:any = search(id, props.user.mySerials)
-        console.log(isFoundSer)
+
         let user = {
             ...props.user
         }
-console.log(status)
 
         if (status == 4) {
             user.mySerials = props.user.mySerials.filter((ser: any) => {
@@ -49,13 +49,12 @@ console.log(status)
                     return ser
                 }
             })
-        }
-
-        if (status != 4) {
+        } else {
             if (!isFoundSer) {
                 user.mySerials = [...props.user.mySerials, {
                         serialId: serial.id,
-                        myRaiting: 5,
+                        serialName: serial.name,
+                        myRaiting: 0,
                         seasons: [],
                         status: status
                     }]
@@ -72,10 +71,6 @@ console.log(status)
             }
         }
         
-
-        console.log(serial)
-        console.log(user)
-
         props.changeUserInfo(user)
     }
     

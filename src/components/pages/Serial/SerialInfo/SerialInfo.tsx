@@ -10,20 +10,13 @@ const SerialInfo = (props: any) => {
 		setSerStatus(props.foundSer.status)
 	}, [props.foundSer.status])
 
-	//const [disBtnId, setDisBtnId] = useState(`btn${serStatus}`)
 	const [disBtnId, setDisBtnId] = useState(serStatus)
 
     const onClickHandler = (event: any) => {
         let id = event.target.value
-		setSerStatus(id)
 		setDisBtnId(id)
-		console.log(id)
-		console.log(serStatus)
-		console.log(disBtnId)
 		props.onChangeStatus(props.currSer, Number(id))
     }
-
-	console.log('hihi' + serStatus)
 
 	return (
 		<div className={styles.serialInfo_wrapper}>
@@ -42,7 +35,6 @@ const SerialInfo = (props: any) => {
 					<div className={styles.preview_buttons}>
 						<button
 							className={styles.btn + " " + styles.button_serialStatus}
-							//id="btn1"
 							value={1}
 							disabled={disBtnId == 1}
                             onClick={event => onClickHandler(event)}
@@ -51,7 +43,6 @@ const SerialInfo = (props: any) => {
 						</button>
 						<button
 							className={styles.btn + " " + styles.button_serialStatus}
-							//id="btn2"
 							value={2}
 							disabled={disBtnId == 2}
                             onClick={event => onClickHandler(event)}
@@ -60,7 +51,6 @@ const SerialInfo = (props: any) => {
 						</button>
 						<button
 							className={styles.btn + " " + styles.button_serialStatus}
-							//id="btn3"
 							value={3}
 							disabled={disBtnId == 3}
                             onClick={event => onClickHandler(event)}
@@ -69,7 +59,6 @@ const SerialInfo = (props: any) => {
 						</button>
 						<button
 							className={styles.btn + " " + styles.button_serialStatus}
-							//id="btn4"
 							value={4}
 							disabled={disBtnId == 4}
                             onClick={event => onClickHandler(event)}

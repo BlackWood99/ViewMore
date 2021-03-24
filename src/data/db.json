@@ -5,70 +5,67 @@
       "name": "BlackWood",
       "mySerials": [
         {
-          "serialId": 1616002338514,
-          "myRaiting": 5,
-          "seasons": [
-            {
-              "seasonId": 1,
-              "episodes": [
-                {
-                  "epNumber": 1,
-                  "viewed": true
-                }
-              ]
-            }
-          ],
-          "status": 1
-        },
-        {
-          "serialId": 1616003340314,
-          "myRaiting": 2,
-          "seasons": [
-            {
-              "seasonId": 1,
-              "episodes": [
-                {
-                  "epNumber": 1,
-                  "viewed": true
-                }
-              ]
-            }
-          ],
-          "status": 3
-        },
-        {
-          "serialId": 1616493300816,
-          "myRaiting": 3,
-          "seasons": [
-            {
-              "seasonId": 1,
-              "episodes": [
-                {
-                  "epNumber": 1,
-                  "viewed": true
-                }
-              ]
-            }
-          ],
-          "status": 3
-        },
-        {
           "serialId": 4,
-          "myRaiting": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 5,
           "seasons": [],
           "status": 1
         },
         {
-          "serialId": 1616493181351,
-          "myRaiting": 3,
+          "serialId": 1616002338514,
+          "serialName": "Breaking Bad",
+          "myRaiting": 5,
           "seasons": [],
           "status": 1
         },
         {
           "serialId": 1616002795454,
+          "serialName": "Supernatural",
+          "myRaiting": 4,
+          "seasons": [],
+          "status": 3
+        },
+        {
+          "serialId": 1616003340314,
+          "serialName": "Lost",
           "myRaiting": 3,
           "seasons": [],
           "status": 3
+        },
+        {
+          "serialId": 1616006043491,
+          "serialName": "Prison break",
+          "myRaiting": 2,
+          "seasons": [],
+          "status": 3
+        },
+        {
+          "serialId": 1616493181351,
+          "serialName": "Misfits",
+          "myRaiting": 4,
+          "seasons": [],
+          "status": 3
+        },
+        {
+          "serialId": 1616493300816,
+          "serialName": "Doctor Who",
+          "myRaiting": 5,
+          "seasons": [],
+          "status": 3
+        },
+        {
+          "serialId": 1616607834765,
+          "serialName": "Black Mirror",
+          "myRaiting": 4,
+          "seasons": [],
+          "status": 1
+        },
+        {
+          "serialId": 1616607769076,
+          "serialName": "Arrow",
+          "myRaiting": 0,
+          "seasons": [],
+          "status": 2
         }
       ]
     }
@@ -265,6 +262,26 @@
       "audience": "32",
       "countSeason": "15",
       "year": "2006",
+      "status": 4
+    },
+    {
+      "id": 1616607769076,
+      "name": "Arrow",
+      "raiting": 4,
+      "viewers": "48152",
+      "audience": "24",
+      "countSeason": "8",
+      "year": "2012",
+      "status": 4
+    },
+    {
+      "id": 1616607834765,
+      "name": "Black Mirror",
+      "raiting": 5,
+      "viewers": "97219",
+      "audience": "37",
+      "countSeason": "5",
+      "year": "2011",
       "status": 4
     }
   ]
