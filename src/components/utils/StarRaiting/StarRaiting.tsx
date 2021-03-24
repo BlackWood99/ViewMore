@@ -10,7 +10,7 @@ export const StarRaiting = (props: any) => {
 
 		if (props.onChangeRaiting) {
 			props.onChangeRaiting(newSerial)
-		} else console.log('click click')
+		}
     }
 
 	const stars = []

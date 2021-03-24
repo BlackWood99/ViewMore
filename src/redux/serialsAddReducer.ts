@@ -1,5 +1,5 @@
 import { INewState, SerialActionType } from "./interfaces"
-import { ADD_NEW_SERIAL, GET_SERIALS, PUT_CHANGE_RAITING, GET_USERS_SERIALS, GET_CURRENT_SERIAL } from "./types"
+import { ADD_NEW_SERIAL, GET_SERIALS, PUT_CHANGE_USER, GET_USER, GET_CURRENT_SERIAL } from "./types"
 
 const initialState: INewState = {
 	user: null,
@@ -21,10 +21,10 @@ export const serialsAddReducer = (
 		case GET_CURRENT_SERIAL: {
 			return { ...state, currentSerial: action.payload }
 		}
-		case PUT_CHANGE_RAITING: {
+		case PUT_CHANGE_USER: {
 			return { ...state, user: action.payload } 
 		}
-		case GET_USERS_SERIALS: {
+		case GET_USER: {
 			return { ...state, user: action.payload }
 		}
 		default:

@@ -6,7 +6,7 @@ import {
 	INewState,
 	IUser,
 } from "../../../redux/interfaces"
-import { changeSerialRaiting } from "../../../redux/actions"
+import { changeUserInfo } from "../../../redux/actions"
 import { connect } from "react-redux"
 import ProfileInfo from "./ProfileInfo/ProfileInfo"
 import SerialsBlock from "./SerialsBlock/SerialsBlock"
@@ -15,7 +15,7 @@ import ProfilePanel from "./ProfilePanel/ProfilePanel"
 interface IProfileStateProps {
 	serials: INewSerialType[]
 	user: IUser
-	changeSerialRaiting(serial: INewSerialType, value: number): void
+	changeUserInfo(user: any): void
 }
 
 const Profile: any = (props: IProfileStateProps) => {
@@ -35,8 +35,18 @@ const Profile: any = (props: IProfileStateProps) => {
 		})
 		.filter((serial) => serial !== undefined)
 
-	const onChangeRaiting = (serial: INewSerialType, value: number) => {
-		props.changeSerialRaiting(serial, value)
+	const onChangeRaiting = (serial: any) => {
+		let user = {
+            ...props.user,
+            mySerials: props.user.mySerials.map((ser: any) => {
+                if (ser.serialId == serial.serialId) {
+                    return serial
+                } else return ser
+
+            })
+        }
+
+		props.changeUserInfo(user)
 	}
 
 	return (
@@ -48,6 +58,7 @@ const Profile: any = (props: IProfileStateProps) => {
 				<SerialsBlock
 					serials={mySerials}
 					onChangeRaiting={onChangeRaiting}
+					user={props.user}
 				/>
 			</div>
 
@@ -67,5 +78,5 @@ const mapStateToProps = (state: INewSerialsStateToProps): INewState => {
 }
 
 export default connect(mapStateToProps, {
-	changeSerialRaiting,
+	changeUserInfo,
 })(Profile)

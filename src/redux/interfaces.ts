@@ -1,4 +1,4 @@
-import { ADD_NEW_SERIAL, GET_SERIALS, PUT_CHANGE_RAITING, GET_USERS_SERIALS, INITIALIZING_APP, GET_CURRENT_SERIAL } from "./types";
+import { ADD_NEW_SERIAL, GET_SERIALS, PUT_CHANGE_USER, GET_USER, INITIALIZING_APP, GET_CURRENT_SERIAL } from "./types";
 
 export interface IAppActionType {
     type: typeof INITIALIZING_APP
@@ -24,16 +24,16 @@ interface ISerialCurrentGetAction {
 }
 
 interface ISerialPutRaitingAction {
-    type: typeof PUT_CHANGE_RAITING,
+    type: typeof PUT_CHANGE_USER,
     payload: IUser
 }
 
-interface ISerialUsersGetAction {
-    type: typeof GET_USERS_SERIALS
+interface IUserGetAction {
+    type: typeof GET_USER
     payload: IUser
 }
 
-export type SerialActionType = ISerialAddAction | ISerialGetAction | ISerialCurrentGetAction | ISerialPutRaitingAction | ISerialUsersGetAction
+export type SerialActionType = ISerialAddAction | ISerialGetAction | ISerialCurrentGetAction | ISerialPutRaitingAction | IUserGetAction
 
 
 // ------------------------------------------

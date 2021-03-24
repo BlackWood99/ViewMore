@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { connect } from "react-redux"
 import { INewSerialsStateToProps, INewSerialType, INewSerialForPostType, newStateType } from "../../../redux/interfaces"
-import { addNewSerial, changeSerialRaiting } from "../../../redux/actions"
+import { addNewSerial, changeUserInfo } from "../../../redux/actions"
 import styles from "./SerialFormAdd.module.css"
 import { Field, Form } from "react-final-form"
 import { StarRaiting } from "../../utils/StarRaiting/StarRaiting"
@@ -12,7 +12,7 @@ import { NavLink } from "react-router-dom"
 interface IAddNewSerialPropsType {
 	serials: INewSerialType[]
 	addNewSerial(serial: INewSerialType): void
-	changeSerialRaiting(serial: INewSerialType, value:number): void
+	changeUserInfo(serial: INewSerialType, value:number): void
 }
 
 const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
@@ -215,4 +215,4 @@ const mapStateToProps = (state: INewSerialsStateToProps): newStateType => {
 	}
 }
 
-export default connect(mapStateToProps, { addNewSerial, changeSerialRaiting })(SerialFormAdd)
+export default connect(mapStateToProps, { addNewSerial, changeUserInfo })(SerialFormAdd)

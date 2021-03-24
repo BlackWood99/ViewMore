@@ -68,6 +68,11 @@
     margin-right: 0.1rem;
 }
 
+.button_serialStatus:disabled {
+    background-color: red;
+    color: #fff;
+}
+
 .info {
     display: flex;
     flex-direction: column;

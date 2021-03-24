@@ -1,237 +1,318 @@
 {
-    "readme": {"status" : "1, 2, 3, 4  -----  Смотрю, буду смотреть, перестал, не смотрю"},
-	"users": [
-		{
-			"id": 123,
-			"name": "BlackWood",
-			"mySerials": [
-				{
-					"serialId": 1,
-					"myRaiting": 4,
-					"seasons": [
-						{
-							"seasonId": 1,
-							"episodes": [
-								{
-									"epNumber": 1,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 2,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 3,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 4,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 5,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 6,
-                                    "viewed": true
-								}
-							]
-						},
-                        {
-							"seasonId": 2,
-							"episodes": [
-								{
-									"epNumber": 1,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 2,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 3,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 4,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 5,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 6,
-                                    "viewed": true
-								}
-							]
-						}
-					],
-					"status": 1
-				},
-                {
-					"serialId": 4,
-					"myRaiting": 4,
-					"seasons": [
-						{
-							"seasonId": 1,
-							"episodes": [
-								{
-									"epNumber": 1,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 2,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 3,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 4,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 5,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 6,
-                                    "viewed": true
-								}
-							]
-						},
-                        {
-							"seasonId": 2,
-							"episodes": [
-								{
-									"epNumber": 1,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 2,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 3,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 4,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 5,
-                                    "viewed": true
-								},
-                                {
-									"epNumber": 6,
-                                    "viewed": true
-								}
-							]
-						}
-					],
-					"status": 1
-				}
-			]
-		}
-	],
-	"serials": [
-		{
-            "serialId": 4,
-            "name": "Game of Thrones",
-            "raiting": 5,
-            "viewers": 273352,
-            "audience": 57,
-            "countSeason": 5,
-            "year": 2008,
-            "status": 1,
+    "users": [
+      {
+        "id": 123,
+        "name": "BlackWood",
+        "mySerials": [
+          {
+            "serialId": 1616002338514,
+            "myRaiting": 5,
             "seasons": [
-                {
-                    "seasonId": 1,
-                    "episodes": [
-                        {
-                            "episodeId": 2001,
-                            "epNumber": 1,
-                            "epName": "Above and Below",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 2002,
-                            "epNumber": 2,
-                            "epName": "Second ep",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 2003,
-                            "epNumber": 3,
-                            "epName": "Third ep",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 2004,
-                            "epNumber": 4,
-                            "epName": "Fourth ep",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 2005,
-                            "epNumber": 5,
-                            "epName": "Fiveth ep",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 2006,
-                            "epNumber": 6,
-                            "epName": "Sixth ep",
-                            "viewed": false
-                        }
-                    ]
-                },
-                {
-                    "seasonId": 2,
-                    "episodes": [
-                        {
-                            "episodeId": 1001,
-                            "epNumber": 1,
-                            "epName": "Above and Below",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 1002,
-                            "epNumber": 2,
-                            "epName": "Second ep",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 1003,
-                            "epNumber": 3,
-                            "epName": "Third ep",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 1004,
-                            "epNumber": 4,
-                            "epName": "Fourth ep",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 1005,
-                            "epNumber": 5,
-                            "epName": "Fiveth ep",
-                            "viewed": false
-                        },
-                        {
-                            "episodeId": 1006,
-                            "epNumber": 6,
-                            "epName": "Sixth ep",
-                            "viewed": false
-                        }
-                    ]
-                }
+              {
+                "seasonId": 1,
+                "episodes": [
+                  {
+                    "epNumber": 1,
+                    "viewed": true
+                  }
+                ]
+              }
+            ],
+            "status": 1
+          },
+          {
+            "serialId": 1616003340314,
+            "myRaiting": 2,
+            "seasons": [
+              {
+                "seasonId": 1,
+                "episodes": [
+                  {
+                    "epNumber": 1,
+                    "viewed": true
+                  }
+                ]
+              }
+            ],
+            "status": 2
+          },
+          {
+            "serialId": 1616493300816,
+            "myRaiting": 4,
+            "seasons": [
+              {
+                "seasonId": 1,
+                "episodes": [
+                  {
+                    "epNumber": 1,
+                    "viewed": true
+                  }
+                ]
+              }
+            ],
+            "status": 3
+          },
+          {
+            "serialId": 4,
+            "myRaiting": 5,
+            "seasons": [
+              {
+                "seasonId": 1,
+                "episodes": [
+                  {
+                    "epNumber": 1,
+                    "viewed": true
+                  },
+                  {
+                    "epNumber": 2,
+                    "viewed": true
+                  },
+                  {
+                    "epNumber": 3,
+                    "viewed": true
+                  },
+                  {
+                    "epNumber": 4,
+                    "viewed": true
+                  },
+                  {
+                    "epNumber": 5,
+                    "viewed": true
+                  },
+                  {
+                    "epNumber": 6,
+                    "viewed": true
+                  }
+                ]
+              },
+              {
+                "seasonId": 2,
+                "episodes": [
+                  {
+                    "epNumber": 1,
+                    "viewed": true
+                  },
+                  {
+                    "epNumber": 2,
+                    "viewed": true
+                  },
+                  {
+                    "epNumber": 3,
+                    "viewed": true
+                  },
+                  {
+                    "epNumber": 4,
+                    "viewed": false
+                  },
+                  {
+                    "epNumber": 5,
+                    "viewed": false
+                  },
+                  {
+                    "epNumber": 6,
+                    "viewed": false
+                  }
+                ]
+              }
+            ],
+            "status": 1
+          }
+        ]
+      }
+    ],
+    "serials": [
+      {
+        "id": 4,
+        "name": "Game of Thrones",
+        "raiting": 5,
+        "viewers": 273352,
+        "audience": 57,
+        "countSeason": 5,
+        "year": 2008,
+        "status": 1,
+        "seasons": [
+          {
+            "seasonId": 2,
+            "episodes": [
+              {
+                "episodeId": 1006,
+                "epNumber": 6,
+                "epName": "Sixth ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 1005,
+                "epNumber": 5,
+                "epName": "Fiveth ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 1004,
+                "epNumber": 4,
+                "epName": "Fourth ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 1003,
+                "epNumber": 3,
+                "epName": "Third ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 1002,
+                "epNumber": 2,
+                "epName": "Second ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 1001,
+                "epNumber": 1,
+                "epName": "Above and Below",
+                "viewed": false
+              }
             ]
-        }
-	]
-}
+          },
+          {
+            "seasonId": 1,
+            "episodes": [
+              {
+                "episodeId": 2006,
+                "epNumber": 6,
+                "epName": "Sixth ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 2005,
+                "epNumber": 5,
+                "epName": "Fiveth ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 2004,
+                "epNumber": 4,
+                "epName": "Fourth ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 2003,
+                "epNumber": 3,
+                "epName": "Third ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 2002,
+                "epNumber": 2,
+                "epName": "Second ep",
+                "viewed": false
+              },
+              {
+                "episodeId": 2001,
+                "epNumber": 1,
+                "epName": "Above and Below",
+                "viewed": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1616002338514,
+        "name": "Breaking Bad",
+        "raiting": 5,
+        "viewers": "67895",
+        "audience": "27",
+        "countSeason": "5",
+        "year": "2008",
+        "status": 4,
+        "seasons": [
+          {
+            "seasonId": 1,
+            "episodes": [
+              {
+                "episodeId": 2001,
+                "epNumber": 1,
+                "epName": "Above and Below",
+                "viewed": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1616002795454,
+        "name": "Supernatural",
+        "raiting": 3,
+        "viewers": "134891",
+        "audience": "49",
+        "countSeason": "15",
+        "year": "2007",
+        "status": 4,
+        "seasons": [
+          {
+            "seasonId": 1,
+            "episodes": [
+              {
+                "episodeId": 2001,
+                "epNumber": 1,
+                "epName": "Above and Below",
+                "viewed": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1616003340314,
+        "name": "Lost",
+        "raiting": 3,
+        "viewers": "86923",
+        "audience": "58",
+        "countSeason": "6",
+        "year": "2005",
+        "status": 4,
+        "seasons": [
+          {
+            "seasonId": 1,
+            "episodes": [
+              {
+                "episodeId": 2001,
+                "epNumber": 1,
+                "epName": "Above and Below",
+                "viewed": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1616006043491,
+        "name": "Prison break",
+        "raiting": 1,
+        "viewers": "11538",
+        "audience": "8",
+        "countSeason": "6",
+        "year": "2015",
+        "status": 4
+      },
+      {
+        "id": 1616493181351,
+        "name": "Misfits",
+        "raiting": 4,
+        "viewers": "36981",
+        "audience": "26",
+        "countSeason": "5",
+        "year": "2012",
+        "status": 4
+      },
+      {
+        "id": 1616493300816,
+        "name": "Doctor Who",
+        "raiting": 5,
+        "viewers": "67902",
+        "audience": "32",
+        "countSeason": "15",
+        "year": "2006",
+        "status": 4
+      }
+    ]
+  }

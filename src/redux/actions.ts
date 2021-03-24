@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Dispatch } from "react";
 import { SerialActionType, INewSerialType, INewSerialForPostType } from "./interfaces";
-import { ADD_NEW_SERIAL, GET_SERIALS, GET_USERS_SERIALS, PUT_CHANGE_RAITING, INITIALIZING_APP, GET_CURRENT_SERIAL } from "./types"
+import { ADD_NEW_SERIAL, GET_SERIALS, GET_USER, PUT_CHANGE_USER, INITIALIZING_APP, GET_CURRENT_SERIAL } from "./types"
 
 
 export const addNewSerial = (payload: INewSerialForPostType) => {
@@ -38,32 +38,31 @@ export const getCurrentSerial = (id: number) => {
 	}
 }
 
-export const changeSerialRaiting = (user: any) => {
+// --------USER-------- //
+
+export const changeUserInfo = (user: any) => {
 	return (dispatch: Dispatch<SerialActionType>) => {
 		axios.put(`http://localhost:3004/users/123`, user)
 			.then(response => {
 				dispatch({
-					type: PUT_CHANGE_RAITING,
+					type: PUT_CHANGE_USER,
 					payload: response.data
 				})
 			})
 	}
 }
-
-// --------PROFILE-------- //
 
 export const getUser = () => {
 	return (dispatch: Dispatch<SerialActionType>) => {
 		axios.get('http://localhost:3004/users/123')
 			.then(response => {
 				dispatch({
-					type: GET_USERS_SERIALS,
+					type: GET_USER,
 					payload: response.data
 				})
 			})
 	}
 }
-
 
 // --------APP-------- //
 

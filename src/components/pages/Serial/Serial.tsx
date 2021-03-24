@@ -10,7 +10,7 @@ const Serial = (props: any) => {
 	return (
 		<div className={styles.serialPage}>
 			
-			<SerialInfo currSer={props.currSer} foundSer={props.foundSer} onChangeRaiting={props.onChangeRaiting}/>
+			<SerialInfo currSer={props.currSer} foundSer={props.foundSer} onChangeRaiting={props.onChangeRaiting} onChangeStatus={props.onChangeStatus}/>
 
             <SerialSeasons currSer={props.currSer} foundSer={props.foundSer}/>
 

@@ -1,11 +1,15 @@
 import { useEffect, useState } from "react"
 import { connect } from "react-redux"
-import { getCurrentSerial, changeSerialRaiting } from "../../../redux/actions"
+import { getCurrentSerial, changeUserInfo } from "../../../redux/actions"
 import { INewSerialType } from "../../../redux/interfaces"
 import Serial from "./Serial"
 
 const SerialContainer = (props: any) => {
     const [id, setId] = useState(props.match.params.id)
+
+    useEffect(() => {
+        setId(props.match.params.id)
+    }, [props.match.params.id])
 
     useEffect(() => {
         props.getCurrentSerial(id)
@@ -22,7 +26,58 @@ const SerialContainer = (props: any) => {
         }
     }
 
-    const foundSer:any = search(id, props.user.mySerials)
+    let foundSer:any = search(id, props.user.mySerials)
+
+    if (!foundSer) {
+        foundSer = {
+            status: 4
+        }
+    }
+   
+
+    const onChangeStatus = (serial: any, status: number) => {
+        let isFoundSer:any = search(id, props.user.mySerials)
+        console.log(isFoundSer)
+        let user = {
+            ...props.user
+        }
+console.log(status)
+
+        if (status == 4) {
+            user.mySerials = props.user.mySerials.filter((ser: any) => {
+                if (ser.serialId != serial.id) {
+                    return ser
+                }
+            })
+        }
+
+        if (status != 4) {
+            if (!isFoundSer) {
+                user.mySerials = [...props.user.mySerials, {
+                        serialId: serial.id,
+                        myRaiting: 5,
+                        seasons: [],
+                        status: status
+                    }]
+                
+            } else {
+                user.mySerials = props.user.mySerials.map((ser: any) => {
+                        if (ser.serialId == serial.id) {
+                            return {...ser, status: status}
+                        }
+    
+                        return ser
+                    })
+                
+            }
+        }
+        
+
+        console.log(serial)
+        console.log(user)
+
+        props.changeUserInfo(user)
+    }
     
 
     const onChangeRaiting = (serial: any) => {
@@ -36,11 +91,12 @@ const SerialContainer = (props: any) => {
             })
         }
 
-		props.changeSerialRaiting(user)
+		props.changeUserInfo(user)
 	}
 
+
 	return (
-		<Serial currSer={props.currentSerial} foundSer={foundSer} onChangeRaiting={onChangeRaiting}/>
+		<Serial currSer={props.currentSerial} foundSer={foundSer} onChangeRaiting={onChangeRaiting} onChangeStatus={onChangeStatus}/>
 	)
 }
 
@@ -52,4 +108,4 @@ const mapStateToProps = (state: any): any => {
 	}
 }
 
-export default connect(mapStateToProps, { getCurrentSerial, changeSerialRaiting })(SerialContainer)
+export default connect(mapStateToProps, { getCurrentSerial, changeUserInfo })(SerialContainer)

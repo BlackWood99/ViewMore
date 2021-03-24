@@ -9,8 +9,6 @@ export const Star = (props: any) => {
 		checked = true
 	}
 
-	console.log(props.serial)
-
     const id = 'star-rating-' + Date.now() + Math.random()
 
     const onChangeStar = () => {

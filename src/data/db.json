@@ -3,112 +3,269 @@
     {
       "id": 123,
       "name": "BlackWood",
-      "mySerialsId": [
-        1,
-        4,
-        5
+      "mySerials": [
+        {
+          "serialId": 1616002338514,
+          "myRaiting": 5,
+          "seasons": [
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "epNumber": 1,
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 1
+        },
+        {
+          "serialId": 1616003340314,
+          "myRaiting": 2,
+          "seasons": [
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "epNumber": 1,
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 3
+        },
+        {
+          "serialId": 1616493300816,
+          "myRaiting": 3,
+          "seasons": [
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "epNumber": 1,
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 3
+        },
+        {
+          "serialId": 4,
+          "myRaiting": 4,
+          "seasons": [],
+          "status": 1
+        },
+        {
+          "serialId": 1616493181351,
+          "myRaiting": 3,
+          "seasons": [],
+          "status": 1
+        },
+        {
+          "serialId": 1616002795454,
+          "myRaiting": 3,
+          "seasons": [],
+          "status": 3
+        }
       ]
     }
   ],
   "serials": [
     {
-      "id": 1,
-      "name": "Attack on titan",
-      "raiting": 4,
-      "viewers": 52352,
-      "audience": 25,
-      "countSeason": 5,
-      "year": 2010
-    },
-    {
       "id": 4,
-      "name": "Supernatural",
-      "raiting": 3,
-      "viewers": 223952,
-      "audience": 39,
-      "countSeason": 15,
-      "year": 2005
-    },
-    {
-      "id": 5,
-      "name": "Misfits",
-      "raiting": 4,
-      "viewers": 90576,
-      "audience": 36,
+      "name": "Game of Thrones",
+      "raiting": 5,
+      "viewers": 273352,
+      "audience": 57,
       "countSeason": 5,
-      "year": 2009
+      "year": 2008,
+      "status": 1,
+      "seasons": [
+        {
+          "seasonId": 2,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 1,
+          "episodes": [
+            {
+              "episodeId": 2006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 2005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 2004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 2003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 2002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 2001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 1615745217048,
-      "name": "Damanchi",
-      "raiting": 2,
-      "viewers": "26089",
-      "audience": "13",
-      "countSeason": "5",
-      "year": "2015"
-    },
-    {
-      "id": 1615745460626,
-      "name": "Overlord",
-      "raiting": 5,
-      "viewers": "99999",
-      "audience": "50",
-      "countSeason": "4",
-      "year": "2013"
-    },
-    {
-      "id": 1615795948543,
-      "name": "How i met your mom",
-      "raiting": 5,
-      "viewers": "230890",
-      "audience": "46",
-      "countSeason": "10",
-      "year": "2005"
-    },
-    {
-      "id": 1615811259630,
-      "name": "qwe",
-      "raiting": 1,
-      "viewers": "14",
-      "audience": "1",
-      "countSeason": "2",
-      "year": "2010"
-    },
-    {
-      "id": 1615812537588,
+      "id": 1616002338514,
       "name": "Breaking Bad",
       "raiting": 5,
-      "viewers": "100000",
-      "audience": "60",
+      "viewers": "67895",
+      "audience": "27",
       "countSeason": "5",
-      "year": "2008"
+      "year": "2008",
+      "status": 4,
+      "seasons": [
+        {
+          "seasonId": 1,
+          "episodes": [
+            {
+              "episodeId": 2001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 1615882498145,
-      "name": "test",
-      "raiting": 1,
-      "viewers": "1",
-      "audience": "1",
-      "countSeason": "1",
-      "year": "1999"
+      "id": 1616002795454,
+      "name": "Supernatural",
+      "raiting": 3,
+      "viewers": "134891",
+      "audience": "49",
+      "countSeason": "15",
+      "year": "2007",
+      "status": 4,
+      "seasons": [
+        {
+          "seasonId": 1,
+          "episodes": [
+            {
+              "episodeId": 2001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 1615886275138,
+      "id": 1616003340314,
       "name": "Lost",
       "raiting": 3,
-      "viewers": "139004",
-      "audience": "27",
+      "viewers": "86923",
+      "audience": "58",
       "countSeason": "6",
-      "year": "2004"
+      "year": "2005",
+      "status": 4,
+      "seasons": [
+        {
+          "seasonId": 1,
+          "episodes": [
+            {
+              "episodeId": 2001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 1615886277066,
-      "name": "Lost",
+      "id": 1616006043491,
+      "name": "Prison break",
       "raiting": 1,
-      "viewers": "139004",
-      "audience": "27",
+      "viewers": "11538",
+      "audience": "8",
       "countSeason": "6",
-      "year": "2004"
+      "year": "2015",
+      "status": 4
+    },
+    {
+      "id": 1616493181351,
+      "name": "Misfits",
+      "raiting": 4,
+      "viewers": "36981",
+      "audience": "26",
+      "countSeason": "5",
+      "year": "2012",
+      "status": 4
+    },
+    {
+      "id": 1616493300816,
+      "name": "Doctor Who",
+      "raiting": 5,
+      "viewers": "67902",
+      "audience": "32",
+      "countSeason": "15",
+      "year": "2006",
+      "status": 4
     }
   ]
 }

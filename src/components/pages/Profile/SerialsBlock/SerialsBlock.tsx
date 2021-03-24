@@ -23,8 +23,9 @@ const SerialsBlock = (props: any) => {
 						return (
 							<SerialItem
 								serial={serial}
+								user={props.user}
 								onChangeRaiting={props.onChangeRaiting}
-								key={Date.now() + Math.random()}
+								key={Math.random()}
 							/>
 						)
 					})}
