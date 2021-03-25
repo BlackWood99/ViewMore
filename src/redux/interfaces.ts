@@ -61,6 +61,7 @@ export interface INewSerialType {
     countSeason: number
     year: number
     status: number
+    img?: string
     seasons?: ISeasonType[]
 }
 
@@ -73,6 +74,7 @@ export interface INewSerialForPostType {
     countSeason: number
     year: number
     status: number
+    img: string
 }
 
 // Users viewed serials types

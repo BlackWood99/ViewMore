@@ -55,7 +55,7 @@ const SerialContainer = (props: any) => {
                         serialId: serial.id,
                         serialName: serial.name,
                         myRaiting: 0,
-                        seasons: [],
+                        seasons: JSON.parse(JSON.stringify(props.currentSerial.seasons)),
                         status: status
                     }]
                 
@@ -73,7 +73,6 @@ const SerialContainer = (props: any) => {
         
         props.changeUserInfo(user)
     }
-    
 
     const onChangeRaiting = (serial: any) => {
         let user = {
@@ -89,9 +88,43 @@ const SerialContainer = (props: any) => {
 		props.changeUserInfo(user)
 	}
 
+    const onChangeViewedEp = (episode: any, isViewed: boolean, seasonId: number) => {
+        
+        let user = {
+            ...props.user,
+            mySerials: props.user.mySerials.map((ser: any) => {
+                if (ser.serialId == props.currentSerial.id) {
+                    return {
+                        ...ser,
+                        seasons: ser.seasons.map((season: any) => {
+                            if (season.seasonId == seasonId) {
+                                return {
+                                    ...season,
+                                    episodes: season.episodes.map((ep: any) => {
+                                        if (ep.epNumber == episode.epNumber) {
+                                            return {
+                                                ...ep, 
+                                                viewed: isViewed
+                                            }
+                                        } else return ep
+                                    })
+                                }
+                                
+                            } else return season
+                        })
+                    }
+                } else return ser
+            })
+            
+        }
+
+
+        props.changeUserInfo(user)
+    }
+
 
 	return (
-		<Serial currSer={props.currentSerial} foundSer={foundSer} onChangeRaiting={onChangeRaiting} onChangeStatus={onChangeStatus}/>
+		<Serial currSer={props.currentSerial} foundSer={foundSer} onChangeRaiting={onChangeRaiting} onChangeStatus={onChangeStatus} onChangeViewedEp={onChangeViewedEp}/>
 	)
 }
 

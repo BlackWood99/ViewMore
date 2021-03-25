@@ -28,7 +28,7 @@ const SerialInfo = (props: any) => {
 				<div className={styles.preview}>
 					<div className={styles.preview_img}>
 						<img
-							src='https://cdn.hipwallpaper.com/i/97/30/fpOR8l.jpg'
+							src={props.currSer.img}
 							alt='img'
 						/>
 					</div>

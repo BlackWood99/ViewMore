@@ -3,11 +3,30 @@ import EpisodeItem from "./EpisodeItem"
 
 const SerialSeasonItem = (props: any) => {
 
-    const episodes = props.season.episodes
-        .sort((a: any, b: any) => a.epNumber < b.epNumber ? 1 : -1)
-        .map((ep: any) => {
-            return <EpisodeItem episode={ep} key={'episode'+Math.random()}/>
-        })
+	//////
+
+	let haveSeason: any
+	if (props.foundSer.status != 4) {
+		haveSeason = props.foundSer.seasons.find((seas: any) => seas.seasonId == props.season.seasonId)
+	} else haveSeason = false
+	//console.log(props.foundSer)
+	//////
+
+	const episodes = props.season.episodes
+		.sort((a: any, b: any) => (a.epNumber < b.epNumber ? 1 : -1))
+		.map((ep: any) => {
+			return (
+				<EpisodeItem
+					episode={ep}
+					seasonId={props.season.seasonId}
+					key={"episode" + Math.random()}
+					onChangeViewedEp={props.onChangeViewedEp}
+					haveSeason={haveSeason}
+				/>
+			)
+		})
+
+	
 
 	return (
 		<div className={styles.serialSeasons_item}>
@@ -15,11 +34,7 @@ const SerialSeasonItem = (props: any) => {
 				<h4>{props.season.seasonId}</h4>
 			</div>
 
-			<div className={styles.episodesBlock}>
-				
-                {episodes}
-
-			</div>
+			<div className={styles.episodesBlock}>{episodes}</div>
 		</div>
 	)
 }

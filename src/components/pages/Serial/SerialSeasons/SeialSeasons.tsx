@@ -8,7 +8,7 @@ const SerialSeasons = (props: any) => {
     const serialSeasons = props.currSer.seasons
         .sort((a: any, b: any) => a.seasonId < b.seasonId ? 1 : -1)
         .map((season: any) => {
-            return <SerialSeasonItem season={season} key={'season'+Math.random()}/>
+            return <SerialSeasonItem season={season} foundSer={props.foundSer} onChangeViewedEp={props.onChangeViewedEp} key={'season'+Math.random()}/>
         })
 
 	return (

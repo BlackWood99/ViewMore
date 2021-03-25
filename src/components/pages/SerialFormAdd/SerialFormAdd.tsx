@@ -33,7 +33,8 @@ const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
 			audience: serial.audience,
 			countSeason: serial.countSeason,
 			year: serial.year,
-			status: 4
+			status: 4,
+			img: "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png"
 		}
 
 		props.addNewSerial(newSerial)

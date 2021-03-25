@@ -4,16 +4,22 @@ import SerialInfo from "./SerialInfo/SerialInfo"
 import SerialSeasons from "./SerialSeasons/SeialSeasons"
 
 const Serial = (props: any) => {
+	if (!props.currSer) return <h1>Loading...</h1>
 
-    if (!props.currSer) return <h1>Loading...</h1>
-    
 	return (
 		<div className={styles.serialPage}>
-			
-			<SerialInfo currSer={props.currSer} foundSer={props.foundSer} onChangeRaiting={props.onChangeRaiting} onChangeStatus={props.onChangeStatus}/>
+			<SerialInfo
+				currSer={props.currSer}
+				foundSer={props.foundSer}
+				onChangeRaiting={props.onChangeRaiting}
+				onChangeStatus={props.onChangeStatus}
+			/>
 
-            <SerialSeasons currSer={props.currSer} foundSer={props.foundSer}/>
-
+			<SerialSeasons
+				currSer={props.currSer}
+				foundSer={props.foundSer}
+				onChangeViewedEp={props.onChangeViewedEp}
+			/>
 		</div>
 	)
 }
