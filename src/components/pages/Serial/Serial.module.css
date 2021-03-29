@@ -57,6 +57,11 @@
     margin-right: 2rem;
 }
 
+.preview_img {
+    min-width: 670px;
+    min-height: 380px;
+}
+
 .preview_buttons {
     display: flex;
     justify-content: space-between;

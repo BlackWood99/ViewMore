@@ -18,12 +18,6 @@ const EpisodeItem = (props: any) => {
 
 	const onChangeView = () => {
 		setIsViewed(!isViewed)
-		// const ep = {
-		// 	epNumber: props.episode.epNumber,
-		// 	viewed: isViewed,
-		// }
-		//console.log(props.seasonId)
-		//console.log(props.episode.epNumber)
 		props.onChangeViewedEp(props.episode, !isViewed, props.seasonId)
 	}
 

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import "./App.css"
 import { Route, Switch } from "react-router-dom"
 import { connect } from "react-redux"
@@ -10,8 +10,8 @@ import { Aside } from "./components/Aside/Aside"
 import { Header } from "./components/Header/Header"
 import Profile from "./components/pages/Profile/Profile"
 import SerialFormAdd from "./components/pages/SerialFormAdd/SerialFormAdd"
-import Serial from "./components/pages/Serial/Serial"
 import SerialContainer from "./components/pages/Serial/SerialContainer"
+import Footer from "./components/Footer/Footer"
 
 
 interface IAppStateToProps {
@@ -30,10 +30,8 @@ interface IAppState {
 
 const App = (props: any) => {
 
-	const onInitializeApp = props.initializeApp
-
 	useEffect(() => {
-		onInitializeApp()
+		props.initializeApp()
 	}, [])
 
 	return (
@@ -62,6 +60,8 @@ const App = (props: any) => {
 					</div>
 				</div>
 			</main>
+
+			<Footer />
 		</div>
 	)
 }

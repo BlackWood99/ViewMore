@@ -11,27 +11,16 @@ import { connect } from "react-redux"
 import ProfileInfo from "./ProfileInfo/ProfileInfo"
 import SerialsBlock from "./SerialsBlock/SerialsBlock"
 import ProfilePanel from "./ProfilePanel/ProfilePanel"
+import { Preloader } from "../../utils/Preloader/Preloader"
 
 interface IProfileStateProps {
 	serials: INewSerialType[]
 	user: IUser
-	changeUserInfo(user: any): void
+	changeUserInfo(user: IUser): void
 }
 
 const Profile: any = (props: IProfileStateProps) => {
-	if (!props.user) return <h1>Loading</h1>
-
-	/* const filterUserSerials = props.user.mySerials.map((serial) => {
-		return serial.serialId
-	})
-
-	const mySerials = props.serials
-		.map((serial) => {
-			if (filterUserSerials.includes(serial.id)) {
-				return serial
-			}
-		})
-		.filter((serial) => serial !== undefined) */
+	if (!props.user) return <Preloader />
 
 	const mySerials = props.user.mySerials
 
@@ -39,7 +28,7 @@ const Profile: any = (props: IProfileStateProps) => {
 		let user = {
             ...props.user,
             mySerials: props.user.mySerials.map((ser: any) => {
-                if (ser.serialId == serial.serialId) {
+                if (ser.serialId === serial.serialId) {
                     return serial
                 } else return ser
 
@@ -53,7 +42,7 @@ const Profile: any = (props: IProfileStateProps) => {
 		<div className={styles.profileBlock}>
 			{/* -----LEFT----- */}
 			<div className={styles.profileBlock__content}>
-				<ProfileInfo />
+				<ProfileInfo user={props.user}/>
 
 				<SerialsBlock
 					mySerials={mySerials}

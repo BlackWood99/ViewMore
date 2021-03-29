@@ -1,3 +1,4 @@
+import { uid } from "react-uid"
 import styles from "../Serial.module.css"
 import SerialSeasonItem from "./SerialSeasonItem/SerialSeasonItem"
 
@@ -8,18 +9,18 @@ const SerialSeasons = (props: any) => {
     const serialSeasons = props.currSer.seasons
         .sort((a: any, b: any) => a.seasonId < b.seasonId ? 1 : -1)
         .map((season: any) => {
-            return <SerialSeasonItem season={season} foundSer={props.foundSer} onChangeViewedEp={props.onChangeViewedEp} key={'season'+Math.random()}/>
+            return <SerialSeasonItem season={season} foundSer={props.foundSer} onChangeViewedEp={props.onChangeViewedEp} key={uid(season)}/>
         })
 
 	return (
 		<div className={styles.serialSeasons_wrapper}>
 
-			<button className={styles.btn + " " + styles.btn_markAll}>
+			{/* <button className={styles.btn + " " + styles.btn_markAll}>
 				Отметить все
 			</button>
 			<button className={styles.btn + " " + styles.btn_saveChange}>
 				Сохранить
-			</button>
+			</button> */}
 
 
 			<div className={styles.serialsSeasons_heading}>

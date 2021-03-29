@@ -1,0 +1,31 @@
+.footerBlock {
+    background-color: black;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    font-size: 0.8rem;
+    color: rgb(155, 152, 152);
+    text-decoration: none;
+
+    padding: 0 1rem;
+    border-right: 1px solid rgb(155, 152, 152);
+}
+
+.link:last-child {
+    border-right: none;
+}

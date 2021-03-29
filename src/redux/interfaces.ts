@@ -23,7 +23,7 @@ interface ISerialCurrentGetAction {
     payload: INewSerialType
 }
 
-interface ISerialPutRaitingAction {
+interface IChangeUserPutAction {
     type: typeof PUT_CHANGE_USER,
     payload: IUser
 }
@@ -33,7 +33,7 @@ interface IUserGetAction {
     payload: IUser
 }
 
-export type SerialActionType = ISerialAddAction | ISerialGetAction | ISerialCurrentGetAction | ISerialPutRaitingAction | IUserGetAction
+export type SerialActionType = ISerialAddAction | ISerialGetAction | ISerialCurrentGetAction | IChangeUserPutAction | IUserGetAction
 
 
 // ------------------------------------------
@@ -49,7 +49,7 @@ export interface IEpisodeType {
 
 export interface ISeasonType {
     seasonId: number
-    episodes: IEpisodeType[]
+    episodes: IEpisodeType[] | null | undefined
 }
 
 export interface INewSerialType {
@@ -60,9 +60,10 @@ export interface INewSerialType {
     audience: number
     countSeason: number
     year: number
+    description: string
     status: number
     img?: string
-    seasons?: ISeasonType[]
+    seasons?: ISeasonType[] | null | undefined
 }
 
 export interface INewSerialForPostType {
@@ -73,14 +74,18 @@ export interface INewSerialForPostType {
     audience: number
     countSeason: number
     year: number
+    description: string
     status: number
     img: string
+    seasons? : ISeasonType[] | null | undefined
 }
 
 // Users viewed serials types
 
 export interface IUsersViewedEpisode {
+    episodeId: number
     epNumber: number
+    epName: string
     viewed: boolean
 }
 
@@ -88,17 +93,22 @@ export interface IUsersViewedSeason {
     seasonId: number
     episodes: IUsersViewedEpisode[]
 }
+// export interface IUsersViewedSeason {
+//     seasonId: number
+//     episodes: IUsersViewedEpisode[] | null
+// }
 
 export interface IUsersViewedSerial {
     serialId: number
+    serialName: string
     myRaiting: number
     status: number
     seasons: IUsersViewedSeason[]
 }
 
 export interface IUser {
-    id: number
-    name: string
+    id: number | null
+    name: string | null
     mySerials: IUsersViewedSerial[]
 }
 
@@ -112,17 +122,21 @@ interface ISerialsState {
     serials: INewSerialType[] | null | undefined
 }
 
+//type currentSerial = null as ICurrentSerial
+
+
 export type newStateType = IUserState | ISerialsState
 
 export interface INewState {
     user: IUser | null | undefined
     serials: INewSerialType[]
-    currentSerial?: INewSerialType | INewSerialForPostType | null
+    currentSerial?: null | INewSerialType 
 }
 
 export interface INewSerialsStateToProps {
 	serialsPage: {
         user: IUser,
         serials: INewSerialType[]
+        currentSerial?: INewSerialType | null
     }
 }

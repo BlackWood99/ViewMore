@@ -29,6 +29,7 @@ body {
   background: url('./assets/galaxy-bg.jpg') no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: 100%;
 }
 
 
@@ -39,6 +40,8 @@ body {
 	gap: 0px 0px;
 	grid-template-areas:
 	  "aside content";
+
+	min-height: calc(100vh - 142px);
 }
 
 .aside { grid-area: aside; }

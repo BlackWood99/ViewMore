@@ -1,9 +1,14 @@
+import { IUser } from "../../../../redux/interfaces"
 import styles from "./ProfileInfo.module.css"
 
-const ProfileInfo = () => {
+interface IProfileInfoProps {
+	user: IUser
+}
+
+const ProfileInfo = (props: IProfileInfoProps) => {
 	return (
 		<div className={styles.infoBlock}>
-			<h3>BlackWood</h3>
+			<h3>{props.user.name}</h3>
 			<div className='row justify-content-between align-items-center'>
 				<div className='col-3'>
 					<div className={styles.infoBlock__item}>

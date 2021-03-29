@@ -1,9 +1,16 @@
+import { uid } from "react-uid"
+import { INewSerialType, IUsersViewedSerial } from "../../../redux/interfaces"
 import { Star } from "./Star"
 
-export const StarRaiting = (props: any) => {
+interface IStarRaitingProps {
+	serial: IUsersViewedSerial | INewSerialType
+	onChangeRaiting? (serial: IUsersViewedSerial): void
+}
+
+export const StarRaiting = (props: IStarRaitingProps) => {
 	
-    const changeStarHandler = (value: any) => {
-		const newSerial = {
+    const changeStarHandler = (value: number) => {
+		const newSerial: any = {
 			...props.serial,
 			myRaiting: value
 		}
@@ -20,7 +27,7 @@ export const StarRaiting = (props: any) => {
 			<Star
 				value={i}
 				serial={props.serial}
-				key={Date.now() + Math.random()}
+				key={uid(i)}
 				onChangeRaiting={changeStarHandler}
 			/>
 		)

@@ -5,31 +5,67 @@
       "name": "BlackWood",
       "mySerials": [
         {
-          "serialId": 1616003340314,
-          "serialName": "Lost",
+          "serialId": 1616493181351,
+          "serialName": "Misfits",
           "myRaiting": 3,
           "seasons": [],
           "status": 3
         },
         {
-          "serialId": 1616006043491,
-          "serialName": "Prison break",
-          "myRaiting": 2,
-          "seasons": [],
-          "status": 3
-        },
-        {
-          "serialId": 1616493181351,
-          "serialName": "Misfits",
-          "myRaiting": 4,
-          "seasons": [],
-          "status": 3
-        },
-        {
-          "serialId": 1616493300816,
-          "serialName": "Doctor Who",
+          "serialId": 1616002338514,
+          "serialName": "Breaking Bad",
           "myRaiting": 5,
-          "seasons": [],
+          "seasons": [
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 1
+        },
+        {
+          "serialId": 1616002795454,
+          "serialName": "Supernatural",
+          "myRaiting": 4,
+          "seasons": [
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            }
+          ],
+          "status": 3
+        },
+        {
+          "serialId": 1616003340314,
+          "serialName": "Lost",
+          "myRaiting": 3,
+          "seasons": [
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            }
+          ],
           "status": 3
         },
         {
@@ -40,9 +76,621 @@
           "status": 2
         },
         {
+          "serialId": 1616006043491,
+          "serialName": "Prison break",
+          "myRaiting": 1,
+          "seasons": [
+            {
+              "seasonId": 4,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 3,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            },
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 3
+        },
+        {
+          "serialId": 1616493300816,
+          "serialName": "Doctor Who",
+          "myRaiting": 5,
+          "seasons": [
+            {
+              "seasonId": 8,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 7,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 6,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 5,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 4,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            },
+            {
+              "seasonId": 3,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            },
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            },
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 3
+        },
+        {
           "serialId": 4,
           "serialName": "Game of Thrones",
           "myRaiting": 5,
+          "seasons": [
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            },
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 1
+        },
+        {
+          "serialId": 1616941681109,
+          "serialName": "Twin Peaks",
+          "myRaiting": 0,
+          "seasons": [],
+          "status": 2
+        },
+        {
+          "serialId": 1617016687473,
+          "serialName": "Sherlok",
+          "myRaiting": 5,
+          "seasons": [],
+          "status": 1
+        },
+        {
+          "serialId": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 0,
           "seasons": [
             {
               "seasonId": 2,
@@ -130,13 +778,84 @@
           "status": 1
         },
         {
-          "serialId": 1616002338514,
-          "serialName": "Breaking Bad",
-          "myRaiting": 5,
+          "serialId": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 0,
           "seasons": [
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
             {
               "seasonId": 1,
               "episodes": [
+                {
+                  "episodeId": 2006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
                 {
                   "episodeId": 2001,
                   "epNumber": 1,
@@ -149,13 +868,84 @@
           "status": 1
         },
         {
-          "serialId": 1616002795454,
-          "serialName": "Supernatural",
-          "myRaiting": 4,
+          "serialId": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 0,
           "seasons": [
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
             {
               "seasonId": 1,
               "episodes": [
+                {
+                  "episodeId": 2006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
                 {
                   "episodeId": 2001,
                   "epNumber": 1,
@@ -165,7 +955,457 @@
               ]
             }
           ],
-          "status": 3
+          "status": 1
+        },
+        {
+          "serialId": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 0,
+          "seasons": [
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 1
+        },
+        {
+          "serialId": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 0,
+          "seasons": [
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": true
+                },
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": true
+                }
+              ]
+            }
+          ],
+          "status": 1
+        },
+        {
+          "serialId": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 0,
+          "seasons": [
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            }
+          ],
+          "status": 1
+        },
+        {
+          "serialId": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 0,
+          "seasons": [
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            }
+          ],
+          "status": 1
+        },
+        {
+          "serialId": 4,
+          "serialName": "Game of Thrones",
+          "myRaiting": 0,
+          "seasons": [
+            {
+              "seasonId": 2,
+              "episodes": [
+                {
+                  "episodeId": 1006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 1001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            },
+            {
+              "seasonId": 1,
+              "episodes": [
+                {
+                  "episodeId": 2006,
+                  "epNumber": 6,
+                  "epName": "Sixth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2005,
+                  "epNumber": 5,
+                  "epName": "Fiveth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2004,
+                  "epNumber": 4,
+                  "epName": "Fourth ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2003,
+                  "epNumber": 3,
+                  "epName": "Third ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2002,
+                  "epNumber": 2,
+                  "epName": "Second ep",
+                  "viewed": false
+                },
+                {
+                  "episodeId": 2001,
+                  "epNumber": 1,
+                  "epName": "Above and Below",
+                  "viewed": false
+                }
+              ]
+            }
+          ],
+          "status": 1
         }
       ]
     }
@@ -179,6 +1419,7 @@
       "audience": 57,
       "countSeason": 5,
       "year": 2008,
+      "description": "Игра Престолов — американский фэнтези-сериал, сага, монументальное полотно, снятое телеканалом HBO по мотивам не менее эпичной серии книг Джорджа Мартина «Песнь Льда и Огня». Премьера состоялась 17 апреля 2011 года, завершился сериал на восьмом сезоне.",
       "status": 4,
       "img": "https://img1.goodfon.ru/original/800x480/c/db/igra-prestolov-game-of-6279.jpg",
       "seasons": [
@@ -274,6 +1515,7 @@
       "audience": "27",
       "countSeason": "5",
       "year": "2008",
+      "description": "Культовый сериал о том, что школьный учитель, оказавшийся в безвыходной ситуации, всегда найдет способ подзаработать. Да еще и бывшего ученика к делу привлечет, и местных мафиози на колени поставит.",
       "status": 4,
       "img": "https://wallpapershome.ru/images/pages/pic_h/4378.jpg",
       "seasons": [
@@ -298,6 +1540,7 @@
       "audience": "49",
       "countSeason": "15",
       "year": "2007",
+      "description": "Больше десяти лет назад это шоу начиналось, как камерная история о двух братьях-охотниках за всяческим потусторонним непотребством, решивших отправиться на поиски непутевого папаши, завещавшего им этот интересный семейный бизнес. А теперь мы имеем дело с эпической сагой, где в качестве главных героев и статистов перебывали уже едва ли не все известные демоны, ангелы и другие легендарные персонажи, включая Бога, на досуге развлекающегося написанием чтива в мягких обложках…",
       "status": 4,
       "img": "https://avatars.mds.yandex.net/get-zen_doc/759807/pub_5eb4041b13284a1c2411bc3f_5eb40a89d3478357e02f5c49/scale_1200",
       "seasons": [
@@ -322,14 +1565,127 @@
       "audience": "58",
       "countSeason": "6",
       "year": "2005",
+      "description": "",
       "status": 4,
       "img": "https://www.staynerd.com/wp-content/uploads/lost-fine-attori-1.jpg",
       "seasons": [
         {
+          "seasonId": 3,
+          "episodes": [
+            {
+              "episodeId": 3006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 3005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 3004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 3003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 3002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 3001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 2,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
           "seasonId": 1,
           "episodes": [
             {
-              "episodeId": 2001,
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
               "epNumber": 1,
               "epName": "Above and Below",
               "viewed": false
@@ -346,8 +1702,175 @@
       "audience": "8",
       "countSeason": "6",
       "year": "2015",
+      "description": "Майкл убежден в невиновности брата, осужденного на казнь, и решает сам восстановить справедливость. Он намеренно совершает преступление, за которое попадает в ту самую тюрьму, где сидит брат. Ту самую, которую Майкл хорошо знает, потому что сам же ее и создавал, как инженер-строитель… План спасения гениально прост…",
       "status": 4,
-      "img": "https://s2.best-wallpaper.net/wallpaper/1920x1080/1201/Prison-Break-HD_1920x1080.jpg"
+      "img": "https://s2.best-wallpaper.net/wallpaper/1920x1080/1201/Prison-Break-HD_1920x1080.jpg",
+      "seasons": [
+        {
+          "seasonId": 4,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 3,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 2,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 1,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 1616493181351,
@@ -357,8 +1880,175 @@
       "audience": "26",
       "countSeason": "5",
       "year": "2012",
+      "description": "Компания мелких подонков старшего школьного возраста отбывает дисциплинарное наказание за свои пакости и случайно убивает своего «надзирателя»… Да еще и узнают, что прошедшая над городом гроза оставила им «подарочек». Альтернативное название — «Плохие»",
       "status": 4,
-      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png"
+      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png",
+      "seasons": [
+        {
+          "seasonId": 4,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 3,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 2,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 1,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 1616493300816,
@@ -368,8 +2058,339 @@
       "audience": "32",
       "countSeason": "15",
       "year": "2006",
+      "description": "Подозрительно напоминающий самого обычного британца инопланетянин путешествует в синей будке сквозь время и пространство, заводит дружбу с землянами и периодически спасает миры, планеты и всю вселенную.",
       "status": 4,
-      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png"
+      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png",
+      "seasons": [
+        {
+          "seasonId": 8,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 7,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 6,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 5,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 4,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 3,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 2,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        },
+        {
+          "seasonId": 1,
+          "episodes": [
+            {
+              "episodeId": 1006,
+              "epNumber": 6,
+              "epName": "Sixth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1005,
+              "epNumber": 5,
+              "epName": "Fiveth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1004,
+              "epNumber": 4,
+              "epName": "Fourth ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1003,
+              "epNumber": 3,
+              "epName": "Third ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1002,
+              "epNumber": 2,
+              "epName": "Second ep",
+              "viewed": false
+            },
+            {
+              "episodeId": 1001,
+              "epNumber": 1,
+              "epName": "Above and Below",
+              "viewed": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 1616607769076,
@@ -379,8 +2400,10 @@
       "audience": "24",
       "countSeason": "8",
       "year": "2012",
+      "description": "Богатенький наследник Оливер Куин попадает в кораблекрушение вместе со своим отцом, проводит несколько лет на необитаемом острове, где его, в конце концов, и находят. На первый взгляд, он возвращается ничуть не изменившимся, но на самом деле…",
       "status": 4,
-      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png"
+      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png",
+      "seasons": []
     },
     {
       "id": 1616607834765,
@@ -390,8 +2413,10 @@
       "audience": "37",
       "countSeason": "5",
       "year": "2011",
+      "description": "Британский сериал, состоящий из нескольких новелл, повествует о том, куда, в конце концов, человечество может завести вмешательство технологий в абсолютно все сферы жизни – от личных воспоминаний до политики.",
       "status": 4,
-      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png"
+      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png",
+      "seasons": []
     },
     {
       "id": 1616650851552,
@@ -401,8 +2426,62 @@
       "audience": "28",
       "countSeason": "4",
       "year": "2013",
+      "description": "С давних времён человечество ведёт свою борьбу с Гигантами. Гиганты это огромные существа, ростом с многоэтажный дом, которые не обладают большим интеллектом, но сила их просто ужасна. Они едят людей и получают от этого удовольствие. После продолжительной борьбы остатки человечества создали стену, окружившую страну людей, через которую не пройдут даже Гиганты. С тех пор прошло сто лет. Человечество мирно живёт под защитой стены. Но в один день мальчик Эрен и его приёмная сестра Микаса становятся свидетелями страшного события  участок стены был разрушен супер-гигантом, появившемся прямо из воздуха. Гиганты атакуют город и двое детей в ужасе видят, как один из монстров заживо съедает их мать. Брат и сестра выживают, и Эрен клянется, что убьет всех гигантов и отомстит за всё человечество!",
       "status": 4,
-      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png"
+      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png",
+      "seasons": []
+    },
+    {
+      "id": 1616941681109,
+      "name": "Twin Peaks",
+      "raiting": 4,
+      "viewers": "32890",
+      "audience": "13",
+      "countSeason": "3",
+      "year": "1990",
+      "description": "История начинается с известия о находке обнаженного тела старшеклассницы Лоры Палмер, завернутого в полиэтилен и выброшенного волнами на берег озера. В ходе расследования перед внимательными взглядами агента Купера, шерифа Трумана и его помощников проходят разные жители Твин Пикс. Постепенно зритель открывает для себя темную и страшную сторону жизни обитателей на первый взгляд тихого и мирного городка.",
+      "status": 4,
+      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png",
+      "seasons": []
+    },
+    {
+      "id": 1616941762140,
+      "name": "Scrubs",
+      "raiting": 5,
+      "viewers": "87195",
+      "audience": "44",
+      "countSeason": "9",
+      "year": "2001",
+      "description": "Отучившись четыре года в медицинской школе, Джон Дориан приходит работать интерном в клинику. Вместе с ним здесь же будет применять полученные знания и его лучший друг со времен колледжа Крис Терк. Не имеющие опыта практической работы, молодые специалисты сразу же погружаются в хаотический мир жизни больницы...",
+      "status": 4,
+      "img": "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png",
+      "seasons": []
+    },
+    {
+      "id": 1617009456271,
+      "name": "Dexter",
+      "raiting": 5,
+      "viewers": "245102",
+      "audience": "68",
+      "countSeason": "8",
+      "year": "2006",
+      "description": "Серийный убийца, выбирающий в качестве своих жертв только преступников и отбросов общества, в свободное от кровавой карьеры время подрабатывает судмедэкспертом в полиции.",
+      "status": 4,
+      "img": "https://wallpaperaccess.com/full/1089059.jpg",
+      "seasons": []
+    },
+    {
+      "id": 1617016687473,
+      "name": "Sherlok",
+      "raiting": 4,
+      "viewers": "352356",
+      "audience": "67",
+      "countSeason": "4",
+      "year": "2010",
+      "description": "История о Шерлоке Холмсе и докторе Ватсоне в Лондоне начала двадцать первого века успела прославиться не только как одна из самых стильных и интригующих экранизаций рассказов сэра Артура Конан-Дойла, но и как шоу, создатели которого заставляют фанатов изнывать в ожидании новых серий не меньше пары-тройки мучительных лет. Ожидание, впрочем, того стоит.",
+      "status": 4,
+      "img": "https://img5.goodfon.ru/wallpaper/nbig/0/3a/sherlock-serial-sherlock-bbc-sherlock-holmes-sherlock-she-39.jpg",
+      "seasons": []
     }
   ]
 }

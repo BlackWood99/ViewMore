@@ -6,6 +6,18 @@
     margin: 1rem 0;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+}
+
+.serialsBlock__info div {
+    width: 90%;
+    border-bottom: 1px dotted black;
+    margin: 0 0.5rem;
+}
+
+.serialsBlock__info span {
+    width: 19rem;
+    text-align: right;
 }
 
 .serialsBlock__serialListWrap {

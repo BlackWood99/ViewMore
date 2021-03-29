@@ -8,11 +8,10 @@ import { StarRaiting } from "../../utils/StarRaiting/StarRaiting"
 import { NavLink } from "react-router-dom"
 
 
-
 interface IAddNewSerialPropsType {
 	serials: INewSerialType[]
 	addNewSerial(serial: INewSerialType): void
-	changeUserInfo(serial: INewSerialType, value:number): void
+	changeUserInfo(serial: INewSerialType, value: number): void
 }
 
 const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
@@ -24,6 +23,9 @@ const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
 	}, [props.serials])
 
 	const submitHandler = (serial: INewSerialForPostType) => {
+
+		let description = serial.description || ""
+		let img = serial.img || "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png"
 		
 		let newSerial: INewSerialForPostType = {
 			id: Date.now(),
@@ -33,8 +35,10 @@ const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
 			audience: serial.audience,
 			countSeason: serial.countSeason,
 			year: serial.year,
+			description: description,
 			status: 4,
-			img: "https://razborgtn.ru/uploads/s/x/2/3/x23qhl8fgic5/img/autocrop/b47388ab98eda36793b61c07c7cbdb2f.png"
+			img: img,
+			seasons: []
 		}
 
 		props.addNewSerial(newSerial)
@@ -149,6 +153,35 @@ const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
 										<input
 											{...input}
 											type='text'
+										/>
+										{meta.error && meta.touched && (
+											<span>{meta.error}</span>
+										)}
+									</div>
+								)}
+							</Field>
+							<Field name='description'>
+								{({ input, meta }) => (
+									<div className={styles.addSerials__form_label}>
+										<label>Описание</label>
+										<input
+											{...input}
+											type='text'
+										/>
+										{meta.error && meta.touched && (
+											<span>{meta.error}</span>
+										)}
+									</div>
+								)}
+							</Field>
+							<Field name='img'>
+								{({ input, meta }) => (
+									<div className={styles.addSerials__form_label}>
+										<label>Картинка</label>
+										<input
+											{...input}
+											type='text'
+											placeholder='Введите путь к картинке'
 										/>
 										{meta.error && meta.touched && (
 											<span>{meta.error}</span>
