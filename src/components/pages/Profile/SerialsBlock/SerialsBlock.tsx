@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { uid } from "react-uid"
 import styles from "./SerialsBlock.module.css"
 import { SerialItem } from "./SerialsItem/SerialItem"
 
@@ -71,7 +72,7 @@ const SerialsBlock = (props: any) => {
 								serial={serial}
 								user={props.user}
 								onChangeRaiting={props.onChangeRaiting}
-								key={Math.random()}
+								key={uid(serial)}
 							/>
 						)
 					})}

@@ -1,3 +1,4 @@
+import { uid } from "react-uid"
 import styles from "../../Serial.module.css"
 import EpisodeItem from "./EpisodeItem"
 
@@ -19,7 +20,7 @@ const SerialSeasonItem = (props: any) => {
 				<EpisodeItem
 					episode={ep}
 					seasonId={props.season.seasonId}
-					key={"episode" + Math.random()}
+					key={uid(ep)}
 					onChangeViewedEp={props.onChangeViewedEp}
 					haveSeason={haveSeason}
 				/>

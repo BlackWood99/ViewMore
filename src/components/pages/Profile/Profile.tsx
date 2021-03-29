@@ -28,7 +28,7 @@ const Profile: any = (props: IProfileStateProps) => {
 		let user = {
             ...props.user,
             mySerials: props.user.mySerials.map((ser: any) => {
-                if (ser.serialId === serial.serialId) {
+                if (ser.serialId == serial.serialId) {
                     return serial
                 } else return ser
 
