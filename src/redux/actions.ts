@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Dispatch } from "react";
-import { SerialActionType, INewSerialType, INewSerialForPostType } from "./interfaces";
+import { SerialActionType, INewSerialType, INewSerialForPostType, IUser } from "./interfaces";
 import { ADD_NEW_SERIAL, GET_SERIALS, GET_USER, PUT_CHANGE_USER, INITIALIZING_APP, GET_CURRENT_SERIAL } from "./types"
 
 
@@ -40,7 +40,7 @@ export const getCurrentSerial = (id: number) => {
 
 // --------USER-------- //
 
-export const changeUserInfo = (user: any) => {
+export const changeUserInfo = (user: IUser) => {
 	return (dispatch: Dispatch<SerialActionType>) => {
 		axios.put(`http://localhost:3004/users/123`, user)
 			.then(response => {

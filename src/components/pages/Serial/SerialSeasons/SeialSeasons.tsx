@@ -1,8 +1,15 @@
 import { uid } from "react-uid"
+import { INewSerialType, IUsersViewedEpisode, IUsersViewedSerial } from "../../../../redux/interfaces"
 import styles from "../Serial.module.css"
 import SerialSeasonItem from "./SerialSeasonItem/SerialSeasonItem"
 
-const SerialSeasons = (props: any) => {
+interface ISerialSeasonsToProps {
+	currSer: INewSerialType
+	foundSer: IUsersViewedSerial
+	onChangeViewedEp: (episode: IUsersViewedEpisode, isViewed: boolean, seasonId: number) => void
+}
+
+const SerialSeasons = (props: ISerialSeasonsToProps) => {
 
     if (!props.currSer.seasons) return <h1>Пока неизвестно</h1>
 

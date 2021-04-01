@@ -1,15 +1,22 @@
 import { useEffect, useState } from "react"
 import { uid } from "react-uid"
+import { IUser, IUsersViewedSerial } from "../../../../redux/interfaces"
 import styles from "./SerialsBlock.module.css"
 import { SerialItem } from "./SerialsItem/SerialItem"
 
-const SerialsBlock = (props: any) => {
+interface ISerialsBlockToProps {
+	user: IUser
+	mySerials: IUsersViewedSerial[]
+	onChangeRaiting: (serial: IUsersViewedSerial) => void
+}
+
+const SerialsBlock = (props: ISerialsBlockToProps) => {
 
 	const [mySerials, setMySerials] = useState(props.mySerials)
 	const [disBtnId, setDisBtnId] = useState(1)
 
 	useEffect(() => {
-		setMySerials(props.mySerials.filter((ser: any) => {
+		setMySerials(props.mySerials.filter(ser => {
 			if (ser.status == disBtnId) return ser
 		})
 		)
@@ -18,7 +25,7 @@ const SerialsBlock = (props: any) => {
 	const onClickHandler = (event: any) => {
 		let id = event.target.value
 		setDisBtnId(id)
-		setMySerials(props.mySerials.filter((ser: any) => {
+		setMySerials(props.mySerials.filter(ser => {
 			if (ser.status == id) return ser
 		})
 		)
@@ -66,7 +73,7 @@ const SerialsBlock = (props: any) => {
 					<span>26 дней 13 часов 57 минут</span>
 				</div>
 				<div className={styles.serialsBlock__serialList}>
-					{mySerials.map((serial: any) => {
+					{mySerials.map(serial => {
 						return (
 							<SerialItem
 								serial={serial}

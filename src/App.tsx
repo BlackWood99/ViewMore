@@ -14,7 +14,7 @@ import SerialContainer from "./components/pages/Serial/SerialContainer"
 import Footer from "./components/Footer/Footer"
 
 
-interface IAppStateToProps {
+interface IAppStateConnect {
 	appPage: { isInitialized: boolean }
 	serialsPage: {
 		serials: INewSerialType[]
@@ -28,7 +28,11 @@ interface IAppState {
 	isInitialized: boolean
 }
 
-const App = (props: any) => {
+interface IAppStateToProps {
+	initializeApp: () => void
+}
+
+const App = (props: IAppStateToProps) => {
 
 	useEffect(() => {
 		props.initializeApp()
@@ -66,7 +70,7 @@ const App = (props: any) => {
 	)
 }
 
-const mapStateToProps = (state: IAppStateToProps): IAppState => {
+const mapStateToProps = (state: IAppStateConnect): IAppState => {
 	return {
 		user: state.serialsPage.user,
 		serials: state.serialsPage.serials,

@@ -1,8 +1,16 @@
 import { useEffect, useState } from "react"
+import { INewSerialType, IUsersViewedSerial } from "../../../../redux/interfaces"
 import { StarRaiting } from "../../../utils/StarRaiting/StarRaiting"
 import styles from "../Serial.module.css"
 
-const SerialInfo = (props: any) => {
+interface ISerialInfoToProps {
+	currSer: INewSerialType
+	foundSer: IUsersViewedSerial
+	onChangeRaiting: (serial: IUsersViewedSerial) => void
+	onChangeStatus: (serial: INewSerialType, status: number) => void
+}
+
+const SerialInfo = (props: ISerialInfoToProps) => {
 
 	const [serStatus, setSerStatus] = useState(props.foundSer.status)
 

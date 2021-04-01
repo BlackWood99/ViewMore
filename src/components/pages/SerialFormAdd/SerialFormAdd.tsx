@@ -14,7 +14,7 @@ interface IAddNewSerialPropsType {
 	changeUserInfo(serial: INewSerialType, value: number): void
 }
 
-const SerialFormAdd: React.FC<IAddNewSerialPropsType> = (props) => {
+const SerialFormAdd: any = (props: IAddNewSerialPropsType) => {
 
 	const [thisSerials, setThisSerials] = useState(props.serials)
 

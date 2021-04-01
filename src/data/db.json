@@ -23,7 +23,7 @@
                   "episodeId": 2001,
                   "epNumber": 1,
                   "epName": "Above and Below",
-                  "viewed": false
+                  "viewed": true
                 }
               ]
             }
@@ -33,7 +33,7 @@
         {
           "serialId": 1616002795454,
           "serialName": "Supernatural",
-          "myRaiting": 4,
+          "myRaiting": 3,
           "seasons": [
             {
               "seasonId": 1,
@@ -42,7 +42,7 @@
                   "episodeId": 2001,
                   "epNumber": 1,
                   "epName": "Above and Below",
-                  "viewed": false
+                  "viewed": true
                 }
               ]
             }
@@ -683,6 +683,13 @@
         {
           "serialId": 1617016687473,
           "serialName": "Sherlok",
+          "myRaiting": 4,
+          "seasons": [],
+          "status": 1
+        },
+        {
+          "serialId": 1617274146450,
+          "serialName": "How i met your mother",
           "myRaiting": 5,
           "seasons": [],
           "status": 1
@@ -1761,6 +1768,19 @@
       "description": "История о Шерлоке Холмсе и докторе Ватсоне в Лондоне начала двадцать первого века успела прославиться не только как одна из самых стильных и интригующих экранизаций рассказов сэра Артура Конан-Дойла, но и как шоу, создатели которого заставляют фанатов изнывать в ожидании новых серий не меньше пары-тройки мучительных лет. Ожидание, впрочем, того стоит.",
       "status": 4,
       "img": "https://img5.goodfon.ru/wallpaper/nbig/0/3a/sherlock-serial-sherlock-bbc-sherlock-holmes-sherlock-she-39.jpg",
+      "seasons": []
+    },
+    {
+      "id": 1617274146450,
+      "name": "How i met your mother",
+      "raiting": 5,
+      "viewers": "181786",
+      "audience": "73",
+      "countSeason": "10",
+      "year": "2005",
+      "description": "На протяжении 9 сезонов незадачливый обаятельный архитектор по имени Тед Мосби рассказывает своим детям о том, как познакомился с их матерью — и через что ему и его лучшим друзьям пришлось пройти за все эти годы.",
+      "status": 4,
+      "img": "https://f.vividscreen.info/soft/bb2cc4941d4041a06cb98fd34a2d4d33/How-I-Met-Your-Mother-1366x768.jpg",
       "seasons": []
     }
   ]

@@ -5,6 +5,7 @@ import {
 	INewSerialType,
 	INewState,
 	IUser,
+	IUsersViewedSerial,
 } from "../../../redux/interfaces"
 import { changeUserInfo } from "../../../redux/actions"
 import { connect } from "react-redux"
@@ -16,18 +17,19 @@ import { Preloader } from "../../utils/Preloader/Preloader"
 interface IProfileStateProps {
 	serials: INewSerialType[]
 	user: IUser
-	changeUserInfo(user: IUser): void
+	changeUserInfo: (user: IUser) => void
 }
 
 const Profile: any = (props: IProfileStateProps) => {
+
 	if (!props.user) return <Preloader />
 
 	const mySerials = props.user.mySerials
 
-	const onChangeRaiting = (serial: any) => {
+	const onChangeRaiting = (serial: IUsersViewedSerial) => {
 		let user = {
             ...props.user,
-            mySerials: props.user.mySerials.map((ser: any) => {
+            mySerials: props.user.mySerials.map(ser => {
                 if (ser.serialId == serial.serialId) {
                     return serial
                 } else return ser
