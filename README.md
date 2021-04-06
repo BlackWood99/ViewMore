@@ -1,3 +1,9 @@
+Сайт работает с локальной базой данных с помощью Json-server. Для того, чтобы запустить нужно его установить
+### `npm install json-server`
+Далее в node перейти в папку data и прописать:
+### `json-server --watch db.json --port 3004`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
